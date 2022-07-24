@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Debug",
+      "request": "launch",
+      "type": "node",
+      "runtimeArgs": ["--loader", "ts-node/esm"],
+      "program": "${workspaceFolder}/src/index.ts",
+      "url": "https://localhost:8000",
+      "webRoot": "${workspaceFolder}",
+      "sourceMaps": true,
+      "trace": true,
+      "envFile": "${workspaceFolder}/.local.env"
+    }
+  ]
+}
